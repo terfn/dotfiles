@@ -1,0 +1,11 @@
+[alias]
+    co = checkout
+    st = status
+    ci = commit
+    cim = commit -m
+    br = branch
+[user]
+	name = Filip Ter
+	email = filip.ter@gmail.com
+[core]
+	excludesfile = /Users/filipt/.gititgnore
