@@ -1,0 +1,6 @@
+
+export NVM_DIR="/opt/local/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export NODE_PATH="/opt/local/.nvm/versions/node/v5.0.0/lib/node_modules"
+  nvm use 5.0.0 &>/dev/null
