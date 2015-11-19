@@ -1,11 +1,35 @@
 [alias]
-    co = checkout
-    st = status
-    ci = commit
-    cim = commit -m
-    br = branch
+  co = checkout
+  st = status
+  ci = commit
+  cim = commit -m
+  br = branch
+  lg =  log --graph --decorate --oneline
+  lfiles = diff-tree --no-commit-id --name-only -r
+  assume = update-index --assume-unchanged
 [user]
-	name = Filip Ter
-	email = filip.ter@gmail.com
+  name = Filip Ter
+  email = filip.ter@gmail.com
 [core]
-	excludesfile = /Users/filipt/.gititgnore
+  excludesfile = /Users/filipt/.gititgnore
+  editor = vim
+[push]
+  default = simple
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow bold
+  local = green bold
+  remote = cyan bold
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+[color "status"]
+  added = green bold
+  changed = yellow bold
+  untracked = red bold
+
+
