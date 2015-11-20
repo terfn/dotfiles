@@ -44,7 +44,6 @@ antigen theme wesbos/Cobalt2-iterm cobalt2.zsh-theme
 #antigen theme robbyrussell
 
 antigen apply
-
 ##Antigen-------
 
 function git_prompt_info() {
