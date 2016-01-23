@@ -1,14 +1,4 @@
-syntax on
-
-set tabstop=2
-set shiftwidth=2
-set backspace=2
-set nu
-set expandtab
 set nocompatible
-set splitright
-set splitbelow
-
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -21,14 +11,24 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'terryma/vim-expand-region'
 
 call vundle#end()
-filetype plugin indent on
+filetype plugin on
 
-colorscheme monokain
-
+set tabstop=2
+set shiftwidth=2
+set backspace=2
+set nu
+set expandtab
+set splitright
+set splitbelow
 set showcmd
 set title 
 set cursorline
 set wrap
+
+au FileType python setl sw=2 sts=2 et
+syntax on
+
+colorscheme monokain
 
 let mapleader = "\<Space>"
 
@@ -48,3 +48,4 @@ vmap <Leader>P "+P
 "Selection expand
 vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
+

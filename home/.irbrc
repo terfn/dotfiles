@@ -3,10 +3,10 @@ require 'pp'
 
 
 IRB.conf[:PROMPT][:CUSTOM] = {
-  :PROMPT_I => "%03n:%i>>",
+  :PROMPT_I => "%03n:%i>> ",
   :PROMPT_C => "%03n:%i* ",
-  :PROMPT_N => "%03n:%i>>",
-  :PROMPT_S => "%03n:%i%l",
+  :PROMPT_N => "%03n:%i>> ",
+  :PROMPT_S => "%03n:%i%l ",
   :RETURN   => "=> %s\n"
 }
 
