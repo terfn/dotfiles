@@ -38,7 +38,7 @@ set hlsearch
 set smartindent
 
 syntax on
-colorscheme solarized
+colorscheme seti
 set bg=dark
 
 let mapleader = "\<Space>"
@@ -71,7 +71,7 @@ augroup vimrc_autocmds
     autocmd!
     " highlight characters past column 120
     autocmd FileType python highlight Excess ctermbg=DarkGrey guibg=Black
-    autocmd FileType python match Excess /\%80v.*/
+    autocmd FileType python match Excess /\%120v.*/
     autocmd FileType python set nowrap
     augroup END
 

@@ -38,10 +38,9 @@ elif [[ $CURRENT_OS == 'Linux' ]]; then
 fi
 
 #Requires Iconosolata for powerline
-antigen theme wesbos/Cobalt2-iterm cobalt2.zsh-theme
+#antigen theme wesbos/Cobalt2-iterm cobalt2.zsh-theme
 
-#In case above fails with fonts use
-#antigen theme robbyrussell
+antigen theme robbyrussell
 
 antigen apply
 ##Antigen-------
