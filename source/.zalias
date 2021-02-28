@@ -1,7 +1,0 @@
-
-alias l='/bin/ls'
-alias ll='/bin/ls -l'
-alias la='/bin/ls -a'
-alias lal='/bin/ls -la'
-alias sqlite="sqlite3"
-alias cls="clear"

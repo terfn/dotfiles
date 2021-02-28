@@ -1,9 +1,5 @@
 ##Dotfiles
 
-My setup.
+Not fully automatic
 
-```bash
-git clone git@github.com:terfn/dotfiles .files
-cd .files
-rake
-```
+Just a store of current vimrc & tmux config. At minimum need to install vim-plug & nvim if not present
